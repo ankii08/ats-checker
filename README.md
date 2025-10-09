@@ -7,7 +7,21 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![ATS Checker Demo](https://via.placeholder.com/800x400/1f2937/ffffff?text=ATS+Resume+Checker)
+---
+
+## 📸 Demo
+
+### 1. Input Interface
+![Input Interface](./public/screenshots/input-interface.png)
+*Paste your resume and job description side-by-side*
+
+### 2. Analysis Results with Match Score
+![Analysis Results](./public/screenshots/analysis-results.png)
+*Get instant match score with matched (green) and missing (red) keywords*
+
+### 3. AI-Powered Suggestions
+![Smart Suggestions](./public/screenshots/suggestions.png)
+*Receive contextual suggestions that naturally integrate missing keywords*
 
 ---
 
