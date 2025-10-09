@@ -1,0 +1,34 @@
+* text=auto eol=lf
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# Documents
+*.md text diff=markdown
+*.mdx text diff=markdown
+*.txt text
+*.sql text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Configs
+*.json text
+*.yaml text
+*.yml text
+*.toml text
+*.lock text -diff
+
+# Archives
+*.7z binary
+*.gz binary
+*.tar binary
+*.zip binary
