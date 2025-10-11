@@ -133,7 +133,7 @@ ats-checker/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/ats-checker.git
+git clone https://github.com/ankii08/ats-checker.git
 cd ats-checker
 
 # 2. Install dependencies
