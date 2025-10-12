@@ -94,31 +94,28 @@ ats-checker/
 ├── tsconfig.json                   # TypeScript configuration
 │
 ├── src/
-│   ├── app/
-│   │   ├── page.tsx               # Main UI (React client component)
-│   │   ├── layout.tsx             # Root layout with metadata
-│   │   ├── globals.css            # Global styles & animations
-│   │   └── api/
-│   │       ├── analyze/
-│   │       │   └── route.ts       # POST /api/analyze (main endpoint)
-│   │       └── health/
-│   │           └── route.ts       # GET /api/health (monitoring)
-│   │
-│   ├── components/
-│   │   ├── Toast.tsx              # Toast notification system
-│   │   ├── ProgressBar.tsx        # Multi-step progress indicator
-│   │   └── LoadingSkeleton.tsx    # Loading state UI
-│   │
-│   └── lib/
-│       ├── schemas.ts             # Zod validation & sanitization
-│       ├── gemini-client.ts       # Gemini API with retry logic
-│       ├── rate-limit-enhanced.ts # Rate limiting with stats
-│       ├── cache.ts               # Response caching (30min TTL)
-│       ├── logger.ts              # Monitoring & performance tracking
-│       └── config.ts              # Environment validation
-│
-└── .github/
-    └── copilot-instructions.md    # Project setup checklist
+    ├── app/
+    │   ├── page.tsx               # Main UI (React client component)
+    │   ├── layout.tsx             # Root layout with metadata
+    │   ├── globals.css            # Global styles & animations
+    │   └── api/
+    │       ├── analyze/
+    │       │   └── route.ts       # POST /api/analyze (main endpoint)
+    │       └── health/
+    │           └── route.ts       # GET /api/health (monitoring)
+    │
+    ├── components/
+    │   ├── Toast.tsx              # Toast notification system
+    │   ├── ProgressBar.tsx        # Multi-step progress indicator
+    │   └── LoadingSkeleton.tsx    # Loading state UI
+    │
+    └── lib/
+        ├── schemas.ts             # Zod validation & sanitization
+        ├── gemini-client.ts       # Gemini API with retry logic
+        ├── rate-limit-enhanced.ts # Rate limiting with stats
+        ├── cache.ts               # Response caching (30min TTL)
+        ├── logger.ts              # Monitoring & performance tracking
+        └── config.ts              # Environment validation
 ```
 
 ## Quick Start
