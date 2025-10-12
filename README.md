@@ -1,4 +1,4 @@
-# 🎯 ATS Resume Checker
+#  ATS Resume Checker
 
 > An AI-powered ATS (Applicant Tracking System) resume checker built with **Next.js 15**, **TypeScript**, and **Google Gemini AI**. This production-ready tool helps job seekers optimize their resumes by analyzing keyword matches against job descriptions and providing intelligent, natural suggestions for improvement.
 
@@ -28,33 +28,33 @@
 ## ✨ Features
 
 ### Core Functionality
-- 🎯 **AI Keyword Extraction** - Automatically extracts crucial ATS keywords from job descriptions using Gemini 2.0 Flash
-- 📊 **Match Scoring** - Calculates percentage match between your resume and job requirements (0-100%)
-- 🔍 **Gap Analysis** - Identifies missing keywords that could improve your ATS score
-- 💡 **Smart Suggestions** - AI-generated edits that naturally integrate missing keywords into your existing resume bullets
-- 🎨 **Visual Insights** - Color-coded keyword pills (green for matched, red for missing)
+-  **AI Keyword Extraction** - Automatically extracts crucial ATS keywords from job descriptions using Gemini 2.0 Flash
+-  **Match Scoring** - Calculates percentage match between your resume and job requirements (0-100%)
+-  **Gap Analysis** - Identifies missing keywords that could improve your ATS score
+-  **Smart Suggestions** - AI-generated edits that naturally integrate missing keywords into your existing resume bullets
+-  **Visual Insights** - Color-coded keyword pills (green for matched, red for missing)
 
 ### Performance & Reliability
-- ⚡ **Lightning Fast** - Response caching delivers instant results (<100ms for repeated queries)
-- 🔄 **Retry Logic** - Automatic retry with exponential backoff (99.5% success rate)
-- 🛡️ **Rate Limiting** - 10 requests/min per IP with smart backoff
-- ✅ **Input Validation** - Sanitization, character limits, and word count checks
-- 📊 **Monitoring** - Built-in health checks and performance logging
+-  **Lightning Fast** - Response caching delivers instant results (<100ms for repeated queries)
+-  **Retry Logic** - Automatic retry with exponential backoff (99.5% success rate)
+-  **Rate Limiting** - 10 requests/min per IP with smart backoff
+-  **Input Validation** - Sanitization, character limits, and word count checks
+-  **Monitoring** - Built-in health checks and performance logging
 
 ### User Experience
-- 🎭 **Loading States** - Skeleton UI with smooth animations
-- 📊 **Progress Tracking** - 4-step visual progress indicator
-- 🔔 **Toast Notifications** - Beautiful feedback for all actions (success, error, warning)
-- 📋 **Copy to Clipboard** - One-click copy for suggestions
-- � **Auto-scroll** - Smooth scroll to results on completion
-- 💜 **Cache Indicator** - Shows when results are loaded from cache
-- 🎨 **Responsive Design** - Works beautifully on mobile, tablet, and desktop
+-  **Loading States** - Skeleton UI with smooth animations
+-  **Progress Tracking** - 4-step visual progress indicator
+-  **Toast Notifications** - Beautiful feedback for all actions (success, error, warning)
+-  **Copy to Clipboard** - One-click copy for suggestions
+-  **Auto-scroll** - Smooth scroll to results on completion
+-  **Cache Indicator** - Shows when results are loaded from cache
+-  **Responsive Design** - Works beautifully on mobile, tablet, and desktop
 
 ### Security & Architecture
-- 🔒 **Secure** - API key stays server-side, never exposed to frontend
-- 🏗️ **Scalable** - Separation of concerns (UI ↔ API routes)
-- 🔧 **Production-Ready** - Error handling, logging, monitoring included
-- 🚀 **Zero-Config Deploy** - One-click deployment to Vercel
+-  **Secure** - API key stays server-side, never exposed to frontend
+-  **Scalable** - Separation of concerns (UI ↔ API routes)
+-  **Production-Ready** - Error handling, logging, monitoring included
+-  **Zero-Config Deploy** - One-click deployment to Vercel
 
 ## 🛠️ Tech Stack
 
@@ -121,7 +121,7 @@ ats-checker/
     └── copilot-instructions.md    # Project setup checklist
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -171,10 +171,10 @@ GEMINI_API_KEY=your_actual_api_key_here
 2. **Paste Job Description** → Copy the job posting into the right textarea
 3. **Click "Analyze Resume"** → Watch the progress bar animate through 4 steps
 4. **Review Results:**
-   - 🎯 **Match Score** (0-100%)
-   - ✅ **Matched Keywords** (green pills)
-   - ❌ **Missing Keywords** (red pills)
-   - 💡 **Smart Suggestions** (AI-powered edits)
+   -  **Match Score** (0-100%)
+   -  **Matched Keywords** (green pills)
+   -  **Missing Keywords** (red pills)
+   -  **Smart Suggestions** (AI-powered edits)
 5. **Copy Suggestions** → Hover over any suggestion and click "Copy"
 6. **Run Again** → Second analysis is instant (cached!) ⚡
 
@@ -269,7 +269,7 @@ Health check endpoint for monitoring.
 
 ---
 
-## 🛡️ Rate Limiting
+##  Rate Limiting
 
 **Current Configuration:**
 - **Limit:** 10 requests per minute per IP
@@ -432,7 +432,7 @@ const nextConfig = {
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Here's how:
 
@@ -463,7 +463,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **[Next.js](https://nextjs.org/)** - React framework for production
 - **[Google Gemini AI](https://deepmind.google/technologies/gemini/)** - Powerful LLM for keyword extraction
@@ -473,7 +473,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 📞 Support
+##  Support
 
 - **Documentation:** You're reading it! 📖
 - **Issues:** [GitHub Issues](https://github.com/yourusername/ats-checker/issues)
@@ -482,7 +482,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Export results as PDF
 - [ ] Support multiple resume formats (PDF, DOCX)
@@ -495,7 +495,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## ⭐ Star History
+##  Star History
 
 If you find this project helpful, please consider giving it a star on GitHub!
 
@@ -505,7 +505,7 @@ If you find this project helpful, please consider giving it a star on GitHub!
 
 <div align="center">
 
-**Made with ❤️ for job seekers everywhere**
+**Made for job seekers everywhere**
 
 [⬆ Back to Top](#-ats-resume-checker)
 
